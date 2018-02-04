@@ -16,7 +16,7 @@
     </parent>
 
     <artifactId>student-fix-it-communication-engine</artifactId>
-    <version>${student.fix.it.communication.engine.version}</version>
+    <version>DEV-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <dependencyManagement>

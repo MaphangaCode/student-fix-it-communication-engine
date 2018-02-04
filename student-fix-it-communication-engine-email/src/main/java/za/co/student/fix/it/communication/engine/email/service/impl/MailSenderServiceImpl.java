@@ -6,10 +6,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Service;
-import za.co.student.fix.it.common.email.template.EmailTemplate;
 import za.co.student.fix.it.communication.engine.email.dto.EmailRegistrationConfirmationRequest;
 import za.co.student.fix.it.communication.engine.email.dto.EmailRegistrationConfirmationResponse;
 import za.co.student.fix.it.communication.engine.email.service.MailSenderService;
+import za.co.student.fix.it.communication.engine.email.template.EmailTemplate;
 
 import javax.mail.internet.MimeMessage;
 

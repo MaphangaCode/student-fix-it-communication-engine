@@ -39,9 +39,7 @@ public class CommunicationEngineWebBusinessServiceImpl implements CommunicationE
        request.setUserId(registrationConfirmationRequest.getUserId());
        request.setCc(registrationConfirmationCommunicationDto.getCc());
        request.setSenderName(registrationConfirmationCommunicationDto.getSenderName());
-       request.setMessage(registrationConfirmationCommunicationDto.getMessage());
        request.setSubject(registrationConfirmationCommunicationDto.getSubject());
-       request.setTemplate(registrationConfirmationCommunicationDto.getTemplate());
        LOGGER.debug("buildEmailRegistrationConfirmationRequest - END");
        return request;
     }
